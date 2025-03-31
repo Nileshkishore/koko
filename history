@@ -10,3 +10,4 @@
  hi NLESH
 
  git branch | grep 'feature/' | xargs git branch -D
+git merge --squash feature/add-new-section
