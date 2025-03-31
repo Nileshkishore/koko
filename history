@@ -1,0 +1,6 @@
+ 1049  git init
+ 1050  echo "Initial project setup" > README.md\ngit add README.md\ngit commit -m "Initial commit"
+ 1051  git branch dev\ngit branch test\ngit branch stage\ngit branch prod
+ 1052  git branch
+ 1053  git remote add origin https://github.com/Nileshkishore/koko.git
+ 1054  git push -u origin dev test stage prod
